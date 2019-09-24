@@ -113,23 +113,17 @@ body { font: 13px Helvetica, Arial; color: #36048c;}
   height: 60px;
   position: fixed;
   z-index: 9999; 
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLHm9JZwijtf34bMuDLvSJCF_LixM5p3bkk85liKesaA-0kxDv");
+ background-color: black;
+  margin-left: 0%;
+}
+#footer {
+  height: 60px;
+  position: fixed;
+  z-index: -9999; 
+  background-color: black;
   margin-left: 0%;
 }
 
-#logout {
-  margin: 5px;
-  border-radius: 25px;
-  padding: 4px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 50px;
-  border-color: green;
-  color: #f10808;
-  float: right;
-  font-size: 12px;
-  overflow: hidden;
-}
 
 #username {
   font-size: 17px;
